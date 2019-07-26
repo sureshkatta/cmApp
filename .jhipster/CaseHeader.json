@@ -1,0 +1,36 @@
+{
+    "name": "CaseHeader",
+    "fields": [
+        {
+            "fieldName": "caseReference",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "caseParticipant",
+            "otherEntityRelationshipName": "caseHeader",
+            "relationshipName": "caseParticipant",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20190726154730",
+    "entityTableName": "case_header",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,48 @@
+{
+    "name": "CaseParticipant",
+    "fields": [
+        {
+            "fieldName": "recordStatus",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "Instant"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "participant",
+            "otherEntityRelationshipName": "caseParticipant",
+            "relationshipName": "participant",
+            "otherEntityField": "id",
+            "ownerSide": false
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "caseHeader",
+            "otherEntityRelationshipName": "caseParticipant",
+            "relationshipName": "caseHeader",
+            "otherEntityField": "id",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20190726154729",
+    "entityTableName": "case_participant",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

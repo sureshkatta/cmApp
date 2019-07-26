@@ -1,0 +1,27 @@
+{
+  "cmApp": {
+    "caseParticipant": {
+      "home": {
+        "title": "Case Participants",
+        "createLabel": "Create a new Case Participant",
+        "createOrEditLabel": "Create or edit a Case Participant",
+        "notFound": "No Case Participant found"
+      },
+      "created": "A new Case Participant is created with identifier {{ param }}",
+      "updated": "A Case Participant is updated with identifier {{ param }}",
+      "deleted": "A Case Participant is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Case Participant {{ id }}?"
+      },
+      "detail": {
+        "title": "Case Participant"
+      },
+      "recordStatus": "Record Status",
+      "type": "Type",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "participant": "Participant",
+      "caseHeader": "Case Header"
+    }
+  }
+}

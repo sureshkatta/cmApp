@@ -1,0 +1,27 @@
+{
+  "cmApp": {
+    "caseParticipant": {
+      "home": {
+        "title": "CaseParticipants",
+        "createLabel": "नया Case Participant बनाएँ",
+        "createOrEditLabel": "Case Participant बनाएँ या संपादित करें",
+        "notFound": "No Case Participant found"
+      },
+      "created": "एक नया Case Participant [identifier: {{ param }}] तैयार है",
+      "updated": "एक Case Participant [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Case Participant [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Case Participant [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Case Participant"
+      },
+      "recordStatus": "Record Status",
+      "type": "Type",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "participant": "Participant",
+      "caseHeader": "Case Header"
+    }
+  }
+}

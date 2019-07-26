@@ -1,0 +1,27 @@
+{
+  "cmApp": {
+    "participant": {
+      "home": {
+        "title": "Participants",
+        "createLabel": "नया Participant बनाएँ",
+        "createOrEditLabel": "Participant बनाएँ या संपादित करें",
+        "notFound": "No Participant found"
+      },
+      "created": "एक नया Participant [identifier: {{ param }}] तैयार है",
+      "updated": "एक Participant [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Participant [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Participant [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Participant"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "registrationDate": "Registration Date",
+      "caseParticipant": "Case Participant"
+    }
+  }
+}

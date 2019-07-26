@@ -1,0 +1,25 @@
+{
+  "cmApp": {
+    "caseHeader": {
+      "home": {
+        "title": "Case Headers",
+        "createLabel": "Create a new Case Header",
+        "createOrEditLabel": "Create or edit a Case Header",
+        "notFound": "No Case Header found"
+      },
+      "created": "A new Case Header is created with identifier {{ param }}",
+      "updated": "A Case Header is updated with identifier {{ param }}",
+      "deleted": "A Case Header is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Case Header {{ id }}?"
+      },
+      "detail": {
+        "title": "Case Header"
+      },
+      "caseReference": "Case Reference",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "caseParticipant": "Case Participant"
+    }
+  }
+}
