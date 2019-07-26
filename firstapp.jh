@@ -1,0 +1,25 @@
+entity Participant {
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+    registrationDate Instant    
+}
+
+entity CaseParticipant {
+	recordStatus String,
+	type String,
+	startDate Instant,
+    endDate Instant
+}
+
+entity CaseHeader {
+	caseReference Long,
+	startDate Instant,
+	endDate Instant
+}
+
+relationship ManyToMany {
+	Participant{caseParticipant} to CaseParticipant{participant},
+	CaseHeader{caseParticipant} to CaseParticipant{caseHeader}
+}
