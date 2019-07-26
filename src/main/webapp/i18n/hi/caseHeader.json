@@ -1,0 +1,25 @@
+{
+  "cmApp": {
+    "caseHeader": {
+      "home": {
+        "title": "CaseHeaders",
+        "createLabel": "नया Case Header बनाएँ",
+        "createOrEditLabel": "Case Header बनाएँ या संपादित करें",
+        "notFound": "No Case Header found"
+      },
+      "created": "एक नया Case Header [identifier: {{ param }}] तैयार है",
+      "updated": "एक Case Header [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Case Header [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Case Header [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Case Header"
+      },
+      "caseReference": "Case Reference",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "caseParticipant": "Case Participant"
+    }
+  }
+}
